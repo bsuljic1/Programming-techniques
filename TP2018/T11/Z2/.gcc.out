@@ -1,0 +1,4 @@
+/rhome/b/bsuljic1/workspace/TP/T11/Z2/main.cpp: In constructor ‘StedniRacun::StedniRacun(double)’:
+/rhome/b/bsuljic1/workspace/TP/T11/Z2/main.cpp:19:4: error: expected ‘;’ before ‘stanje_racuna’
+    stanje_racuna = x;
+    ^~~~~~~~~~~~~

@@ -1,0 +1,4 @@
+/rhome/b/bsuljic1/workspace/TP/T5/Z3/main.cpp: In function ‘bool JeLiPotpunKvadrat(int)’:
+/rhome/b/bsuljic1/workspace/TP/T5/Z3/main.cpp:20:31: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  return int(sqrt(a)) == sqrt(a);
+                               ^

@@ -1,0 +1,24 @@
+==15094== Memcheck, a memory error detector
+==15094== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15094== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==15094== Command: /rhome/b/bsuljic1/workspace/TP/Z4/Z2/.runme
+==15094== Parent PID: 15087
+==15094== 
+==15094== 
+==15094== Process terminating with default action of signal 1 (SIGHUP)
+==15094==    at 0x56EF081: read (read.c:27)
+==15094==    by 0x566C147: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:531)
+==15094==    by 0x566D3F1: _IO_default_uflow (genops.c:380)
+==15094==    by 0x512B95C: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==15094==    by 0x51396F9: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==15094==    by 0x513996D: std::istream::operator>>(int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==15094==    by 0x10AC1F: main (main.cpp:205)
+==15094== 
+==15094== HEAP SUMMARY:
+==15094==     in use at exit: 0 bytes in 0 blocks
+==15094==   total heap usage: 2 allocs, 2 frees, 73,728 bytes allocated
+==15094== 
+==15094== All heap blocks were freed -- no leaks are possible
+==15094== 
+==15094== For counts of detected and suppressed errors, rerun with: -v
+==15094== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

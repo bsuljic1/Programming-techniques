@@ -1,0 +1,4 @@
+/rhome/b/bsuljic1/workspace/TP/T10/Z1/main.cpp: In constructor ‘StedniRacun::StedniRacun()’:
+/rhome/b/bsuljic1/workspace/TP/T10/Z1/main.cpp:15:33: error: expected ‘;’ before ‘}’ token
+  StedniRacun(){stanje_racuna = 0};
+                                 ^

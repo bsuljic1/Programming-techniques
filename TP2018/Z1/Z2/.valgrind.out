@@ -1,0 +1,46 @@
+==26807== Memcheck, a memory error detector
+==26807== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==26807== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==26807== Command: /rhome/b/bsuljic1/workspace/TP/Z1/Z2/.runme
+==26807== Parent PID: 26769
+==26807== 
+==26807== 
+==26807== Process terminating with default action of signal 6 (SIGABRT): dumping core
+==26807==    at 0x561DE97: raise (raise.c:51)
+==26807==    by 0x561F800: abort (abort.c:79)
+==26807==    by 0x50CA8B6: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x50D0A05: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x50D0A40: std::terminate() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x50D0C73: __cxa_throw (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x50CC7B4: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x10E71B: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_range_check(unsigned long) const (stl_vector.h:825)
+==26807==    by 0x10E380: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::at(unsigned long) (stl_vector.h:846)
+==26807==    by 0x109AA1: VrhMatrice(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, int, int) (main.cpp:60)
+==26807==    by 0x10DE3A: main (main.cpp:360)
+==26807== 
+==26807== HEAP SUMMARY:
+==26807==     in use at exit: 334 bytes in 6 blocks
+==26807==   total heap usage: 12 allocs, 6 frees, 74,166 bytes allocated
+==26807== 
+==26807== 144 bytes in 1 blocks are possibly lost in loss record 6 of 6
+==26807==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26807==    by 0x50CF83F: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x50F917A: std::__throw_out_of_range_fmt(char const*, ...) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==26807==    by 0x10E71B: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_range_check(unsigned long) const (stl_vector.h:825)
+==26807==    by 0x10E380: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::at(unsigned long) (stl_vector.h:846)
+==26807==    by 0x109AA1: VrhMatrice(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, int, int) (main.cpp:60)
+==26807==    by 0x10DE3A: main (main.cpp:360)
+==26807== 
+==26807== LEAK SUMMARY:
+==26807==    definitely lost: 0 bytes in 0 blocks
+==26807==    indirectly lost: 0 bytes in 0 blocks
+==26807==      possibly lost: 144 bytes in 1 blocks
+==26807==    still reachable: 190 bytes in 5 blocks
+==26807==                       of which reachable via heuristic:
+==26807==                         stdstring          : 94 bytes in 1 blocks
+==26807==         suppressed: 0 bytes in 0 blocks
+==26807== Reachable blocks (those to which a pointer was found) are not shown.
+==26807== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==26807== 
+==26807== For counts of detected and suppressed errors, rerun with: -v
+==26807== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

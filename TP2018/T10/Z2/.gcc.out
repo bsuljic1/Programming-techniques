@@ -1,0 +1,4 @@
+/rhome/b/bsuljic1/workspace/TP/T10/Z2/main.cpp: In member function ‘void Valjak::Postavi(double, double)’:
+/rhome/b/bsuljic1/workspace/TP/T10/Z2/main.cpp:57:35: error: only constructors take member initializers
+  void Postavi(double x, double y):baza(x), visina(y)
+                                   ^~~~

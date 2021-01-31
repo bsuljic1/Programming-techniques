@@ -1,0 +1,10 @@
+/rhome/b/bsuljic1/workspace/TP/T13/Z2/main.cpp: In constructor ‘StudentMaster::StudentMaster(std::__cxx11::string, std::__cxx11::string, int, int)’:
+/rhome/b/bsuljic1/workspace/TP/T13/Z2/main.cpp:77:6: warning: ‘StudentMaster::godina’ will be initialized after [-Wreorder]
+  int godina;
+      ^~~~~~
+/rhome/b/bsuljic1/workspace/TP/T13/Z2/main.cpp:79:132: warning:   base ‘ApstraktniStudent’ [-Wreorder]
+  StudentMaster(std::string name, std::string lastname, int number, int god) : godina(god), ApstraktniStudent(name, lastname, number) {}
+                                                                                                                                    ^
+/rhome/b/bsuljic1/workspace/TP/T13/Z2/main.cpp:79:2: warning:   when initialized here [-Wreorder]
+  StudentMaster(std::string name, std::string lastname, int number, int god) : godina(god), ApstraktniStudent(name, lastname, number) {}
+  ^~~~~~~~~~~~~

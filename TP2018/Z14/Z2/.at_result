@@ -1,0 +1,91 @@
+{
+    "buildhost_description": {
+        "id": "lab002c26",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In constructor ‘Skladiste::Skladiste(int)’:\nmain.cpp:73:9: warning: ‘Skladiste::max_br_el’ will be initialized after [-Wreorder]\n     int max_br_el;\n         ^~~~~~~~~\nmain.cpp:72:9: warning:   ‘int Skladiste::br_el’ [-Wreorder]\n     int br_el;\n         ^~~~~\nmain.cpp:75:14: warning:   when initialized here [-Wreorder]\n     explicit Skladiste(int max) : max_br_el(max), br_el(0)\n              ^~~~~~~~~\nmain.cpp: In copy constructor ‘Skladiste::Skladiste(const Skladiste&)’:\nmain.cpp:73:9: warning: ‘Skladiste::max_br_el’ will be initialized after [-Wreorder]\n     int max_br_el;\n         ^~~~~~~~~\nmain.cpp:72:9: warning:   ‘int Skladiste::br_el’ [-Wreorder]\n     int br_el;\n         ^~~~~\nmain.cpp:85:5: warning:   when initialized here [-Wreorder]\n     Skladiste(const Skladiste &s) : max_br_el(s.max_br_el), br_el(s.br_el)\n     ^~~~~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "73",
+                "col": "9",
+                "message": "'Skladiste::max_br_el' will be initialized after",
+                "output": "/tmp/buildservice/bs_6687/main.cpp:73:9: warning: ‘Skladiste::max_br_el’ will be initialized after [-Wreorder]     int max_br_el;         ^~~~~~~~~",
+                "code": "int max_br_el;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "72",
+                "col": "9",
+                "message": "'int Skladiste::br_el'",
+                "output": "/tmp/buildservice/bs_6687/main.cpp:72:9: warning:   ‘int Skladiste::br_el’ [-Wreorder]     int br_el;         ^~~~~",
+                "code": "int br_el;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "75",
+                "col": "14",
+                "message": "when initialized here",
+                "output": "/tmp/buildservice/bs_6687/main.cpp:75:14: warning:   when initialized here [-Wreorder]     explicit Skladiste(int max) : max_br_el(max), br_el(0)              ^~~~~~~~~/tmp/buildservice/bs_6687/main.cpp: In copy constructor ‘Skladiste::Skladiste(const Skladiste&)’:",
+                "code": "explicit Skladiste(int max) : max_br_el(max), br_el(0)"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "73",
+                "col": "9",
+                "message": "'Skladiste::max_br_el' will be initialized after",
+                "output": "/tmp/buildservice/bs_6687/main.cpp:73:9: warning: ‘Skladiste::max_br_el’ will be initialized after [-Wreorder]     int max_br_el;         ^~~~~~~~~",
+                "code": "int max_br_el;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "72",
+                "col": "9",
+                "message": "'int Skladiste::br_el'",
+                "output": "/tmp/buildservice/bs_6687/main.cpp:72:9: warning:   ‘int Skladiste::br_el’ [-Wreorder]     int br_el;         ^~~~~",
+                "code": "int br_el;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "85",
+                "col": "5",
+                "message": "when initialized here",
+                "output": "/tmp/buildservice/bs_6687/main.cpp:85:5: warning:   when initialized here [-Wreorder]     Skladiste(const Skladiste &s) : max_br_el(s.max_br_el), br_el(s.br_el)     ^~~~~~~~~",
+                "code": "Skladiste(const Skladiste &s) : max_br_el(s.max_br_el), br_el(s.br_el)"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1": {
+            "status": 1,
+            "run_result": {
+                "output": "Vrsta spremnika: Sanduk\nSadrzaj: Nesto\nVlastita tezina: 1000 kg\nUkupna tezina: 1801 kg\nVrsta spremnika: Bure\nSadrzaj: Ulje neko\nVlastita tezina: 60.1 kg\nUkupna tezina: 110.1 kg\nVrsta spremnika: Sanduk\nSadrzaj: Tepsije\nVlastita tezina: 10 kg\nUkupna tezina: 25 kg\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 1,
+    "time": 1560947611
+}

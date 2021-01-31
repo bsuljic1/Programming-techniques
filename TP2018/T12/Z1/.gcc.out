@@ -1,0 +1,10 @@
+/rhome/b/bsuljic1/workspace/TP/T12/Z1/main.cpp:76:36: error: ‘Sat Sat::operator+(const Sat&, int)’ must take either zero or one argument
+  Sat operator +(const Sat &s, int n){
+                                    ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z1/main.cpp:82:36: error: ‘Sat Sat::operator-(const Sat&, int)’ must take either zero or one argument
+  Sat operator -(const Sat &s, int n){
+                                    ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z1/main.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Sat&)’:
+/rhome/b/bsuljic1/workspace/TP/T12/Z1/main.cpp:105:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^

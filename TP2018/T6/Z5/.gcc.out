@@ -1,0 +1,7 @@
+/rhome/b/bsuljic1/workspace/TP/T6/Z5/main.cpp: In function ‘int main()’:
+/rhome/b/bsuljic1/workspace/TP/T6/Z5/main.cpp:61:5: error: ‘dinamicka’ was not declared in this scope
+  if(dinamicka != nullptr)
+     ^~~~~~~~~
+/rhome/b/bsuljic1/workspace/TP/T6/Z5/main.cpp:63:11: error: ‘dinamicka’ was not declared in this scope
+  delete[] dinamicka;
+           ^~~~~~~~~

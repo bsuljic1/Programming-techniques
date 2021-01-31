@@ -1,0 +1,7 @@
+/rhome/b/bsuljic1/workspace/TP/T3/Z5/main.cpp: In function ‘std::deque<int> IzdvojiElemente(std::deque<int>, bool)’:
+/rhome/b/bsuljic1/workspace/TP/T3/Z5/main.cpp:19:23: error: ‘class std::deque<int>’ has no member named ‘length’
+         for(int i = s.length()-1; i >=0; i--)
+                       ^~~~~~
+/rhome/b/bsuljic1/workspace/TP/T3/Z5/main.cpp:22:23: error: ‘class std::deque<int>’ has no member named ‘length’
+         for(int i = s.length()-1; i >=0; i--)
+                       ^~~~~~

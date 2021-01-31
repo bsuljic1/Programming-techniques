@@ -1,0 +1,10 @@
+/rhome/b/bsuljic1/workspace/TP/T12/Z2/main.cpp: In instantiation of ‘std::set<TipEl>& operator*=(std::set<TipEl>&, const std::set<TipEl>&) [with TipEl = double]’:
+/rhome/b/bsuljic1/workspace/TP/T12/Z2/main.cpp:111:41:   required from here
+/rhome/b/bsuljic1/workspace/TP/T12/Z2/main.cpp:64:9: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+    if(x == y) isti = true;
+       ~~^~~~
+/rhome/b/bsuljic1/workspace/TP/T12/Z2/main.cpp: In instantiation of ‘std::set<TipEl>& operator+=(std::set<TipEl>&, const std::set<TipEl>&) [with TipEl = double]’:
+/rhome/b/bsuljic1/workspace/TP/T12/Z2/main.cpp:113:41:   required from here
+/rhome/b/bsuljic1/workspace/TP/T12/Z2/main.cpp:49:9: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+    if(y == z) nadjen = true;
+       ~~^~~~

@@ -1,0 +1,5 @@
+Odaberite opciju (1 - unos cvorova, 2 - aproksimacija): Unesite broj cvorova: Unesite cvorove kao parove x y: Unesite red interpolacije: Unesite argument (ili "kraj" za kraj): f(1) = 1
+Unesite argument (ili "kraj" za kraj): f(2) = 4
+Unesite argument (ili "kraj" za kraj): f(-2) = 4
+Unesite argument (ili "kraj" za kraj): f(1.5) = 2.25
+Unesite argument (ili "kraj" za kraj): 

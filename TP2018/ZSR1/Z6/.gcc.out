@@ -1,0 +1,10 @@
+/rhome/b/bsuljic1/workspace/TP/ZSR1/Z6/main.cpp: In function ‘int main()’:
+/rhome/b/bsuljic1/workspace/TP/ZSR1/Z6/main.cpp:11:25: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(c == sqrt(a*a+b*b) || a == sqrt(b*b+c*c) || b == sqrt(a*a + c*c))
+                         ^
+/rhome/b/bsuljic1/workspace/TP/ZSR1/Z6/main.cpp:11:47: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(c == sqrt(a*a+b*b) || a == sqrt(b*b+c*c) || b == sqrt(a*a + c*c))
+                                               ^
+/rhome/b/bsuljic1/workspace/TP/ZSR1/Z6/main.cpp:11:71: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(c == sqrt(a*a+b*b) || a == sqrt(b*b+c*c) || b == sqrt(a*a + c*c))
+                                                                       ^

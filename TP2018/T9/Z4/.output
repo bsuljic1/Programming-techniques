@@ -1,0 +1,10 @@
+02:45:50 je ispravno vrijeme!
+456:123:432 nije ispravno vrijeme!
+Vrijeme 1: 01:20:15
+Vrijeme 2: 02:56:40
+Razmak izmedju v1 i v2 je: -5785
+Poslije v1: 01:20:16
+Prije v2: 02:56:39
+v1 i v2 poslije pomjeranja: 01:20:15 02:56:40
+Vrijeme 1: Sati: 1 Minute: 20 Sekunde: 15
+Broj sekundi izmedju v1 i v2: -5785

@@ -1,0 +1,13 @@
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp: In function ‘int main()’:
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp:35:16: warning: unused variable ‘m’ [-Wunused-variable]
+         int n, m;
+                ^
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp:65:16: warning: unused variable ‘m’ [-Wunused-variable]
+         int n, m;
+                ^
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp: In instantiation of ‘std::vector<NekiTip> Presjek(std::vector<NekiTip>, std::vector<NekiTip>) [with NekiTip = float]’:
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp:56:28:   required from here
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp:12:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+                 if(v1.at(i) == v2.at(j)){
+/rhome/b/bsuljic1/workspace/TP/T4/Z5/main.cpp:20:33: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+                     if(v1.at(i) == novi.at(k)){

@@ -1,0 +1,8 @@
+/rhome/b/bsuljic1/workspace/TP/T10/Z3/main.cpp: In copy constructor ‘Vektor3d::Vektor3d(const Vektor3d&)’:
+/rhome/b/bsuljic1/workspace/TP/T10/Z3/main.cpp:29:3: error: ‘koodinate’ was not declared in this scope
+   koodinate[0] = v.koordinate[0];
+   ^~~~~~~~~
+/rhome/b/bsuljic1/workspace/TP/T10/Z3/main.cpp:29:3: note: suggested alternative: ‘koordinate’
+   koodinate[0] = v.koordinate[0];
+   ^~~~~~~~~
+   koordinate

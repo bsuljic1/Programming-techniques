@@ -1,0 +1,322 @@
+{
+    "buildhost_description": {
+        "id": "lab002c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, long long int)’:\nmain.cpp:66:24: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]\n     if(godina % 4 == 0 && godina % 100 != 0 || godina % 400 == 0)\n        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\nmain.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, int, int, int, int, GradjaninBiH::Pol)’:\nmain.cpp:83:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]\n     if(godina_rodjenja % 4 == 0 && godina_rodjenja % 100 != 0 || godina_rodjenja % 400 == 0)\n        ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmain.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, long long int)’:\nmain.cpp:64:5: warning: ‘c13’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     if(c13 != c) throw std::logic_error(\"JMBG nije validan\");\n     ^~\nmain.cpp:62:86: warning: ‘c12’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                                                   ~~~^~~~~\nmain.cpp:62:73: warning: ‘c11’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                                      ~~~^~~~~\nmain.cpp:62:60: warning: ‘c10’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                         ~~~^~~~~\nmain.cpp:62:48: warning: ‘c9’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                             ~~~^~~~\nmain.cpp:62:36: warning: ‘c8’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                 ~~~^~~~\nmain.cpp:62:24: warning: ‘c7’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                     ~~~^~~~\nmain.cpp:62:86: warning: ‘c6’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                                                   ~~~^~~~~\nmain.cpp:62:73: warning: ‘c5’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                                      ~~~^~~~~\nmain.cpp:62:60: warning: ‘c4’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                         ~~~^~~~~\nmain.cpp:62:48: warning: ‘c3’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                             ~~~^~~~\nmain.cpp:62:36: warning: ‘c2’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                 ~~~^~~~\nmain.cpp:62:24: warning: ‘c1’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                     ~~~^~~~\nmain.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, int, int, int, int, GradjaninBiH::Pol)’:\nmain.cpp:130:50: warning: ‘c9’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                               ~~~^~~~\nmain.cpp:130:38: warning: ‘c8’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                   ~~~^~~~\nmain.cpp:130:26: warning: ‘c7’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                       ~~~^~~~\nmain.cpp:130:88: warning: ‘c6’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                                                     ~~~^~~~~\nmain.cpp:130:75: warning: ‘c5’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                                        ~~~^~~~~\nmain.cpp:130:62: warning: ‘c4’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                                           ~~~^~~~~\nmain.cpp:130:50: warning: ‘c3’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                               ~~~^~~~\nmain.cpp:130:38: warning: ‘c2’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                                   ~~~^~~~\nmain.cpp:130:26: warning: ‘c1’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;\n                       ~~~^~~~\nmain.cpp: In member function ‘int GradjaninBiH::DajSifruRegije() const’:\nmain.cpp:171:14: warning: ‘c8’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     return c8*10 + c9;\n            ~~^~~\nmain.cpp:171:20: warning: ‘c9’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n     return c8*10 + c9;\n                    ^~\nmain.cpp: In function ‘int main()’:\nmain.cpp:227:75: warning: ‘pol’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n             GradjaninBiH g(ime_i_prezime, dan, mjesec, godina, regija, pol);\n                                                                           ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "66",
+                "col": "24",
+                "message": "suggest parentheses around '&&' within '||'",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:66:24: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]     if(godina % 4 == 0 && godina % 100 != 0 || godina % 400 == 0)        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~/tmp/buildservice/bs_3982/main.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, int, int, int, int, GradjaninBiH::Pol)’:",
+                "code": "if(godina % 4 == 0 && godina % 100 != 0 || godina % 400 == 0)"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "83",
+                "col": "33",
+                "message": "suggest parentheses around '&&' within '||'",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:83:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]     if(godina_rodjenja % 4 == 0 && godina_rodjenja % 100 != 0 || godina_rodjenja % 400 == 0)        ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~/tmp/buildservice/bs_3982/main.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, long long int)’:",
+                "code": "if(godina_rodjenja % 4 == 0 && godina_rodjenja % 100 != 0 || godina_rodjenja % 400 == 0)"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "64",
+                "col": "5",
+                "message": "'c13' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:64:5: warning: ‘c13’ may be used uninitialized in this function [-Wmaybe-uninitialized]     if(c13 != c) throw std::logic_error(\"JMBG nije validan\");     ^~",
+                "code": "if(c13 != c) throw std::logic_error(\"JMBG nije validan\");"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "86",
+                "message": "'c12' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:86: warning: ‘c12’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                                                   ~~~^~~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "73",
+                "message": "'c11' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:73: warning: ‘c11’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                                      ~~~^~~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "60",
+                "message": "'c10' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:60: warning: ‘c10’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                         ~~~^~~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "48",
+                "message": "'c9' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:48: warning: ‘c9’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                             ~~~^~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "36",
+                "message": "'c8' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:36: warning: ‘c8’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                 ~~~^~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "24",
+                "message": "'c7' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:24: warning: ‘c7’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                     ~~~^~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "86",
+                "message": "'c6' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:86: warning: ‘c6’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                                                   ~~~^~~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "73",
+                "message": "'c5' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:73: warning: ‘c5’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                                      ~~~^~~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "60",
+                "message": "'c4' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:60: warning: ‘c4’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                         ~~~^~~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "48",
+                "message": "'c3' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:48: warning: ‘c3’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                             ~~~^~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "36",
+                "message": "'c2' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:36: warning: ‘c2’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                 ~~~^~~~",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "62",
+                "col": "24",
+                "message": "'c1' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:62:24: warning: ‘c1’ may be used uninitialized in this function [-Wmaybe-uninitialized]     int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                     ~~~^~~~/tmp/buildservice/bs_3982/main.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, int, int, int, int, GradjaninBiH::Pol)’:",
+                "code": "int c = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "50",
+                "message": "'c9' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:50: warning: ‘c9’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                               ~~~^~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "38",
+                "message": "'c8' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:38: warning: ‘c8’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                   ~~~^~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "26",
+                "message": "'c7' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:26: warning: ‘c7’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                       ~~~^~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "88",
+                "message": "'c6' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:88: warning: ‘c6’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                                                     ~~~^~~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "75",
+                "message": "'c5' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:75: warning: ‘c5’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                                        ~~~^~~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "62",
+                "message": "'c4' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:62: warning: ‘c4’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                                           ~~~^~~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "50",
+                "message": "'c3' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:50: warning: ‘c3’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                               ~~~^~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "38",
+                "message": "'c2' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:38: warning: ‘c2’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                                   ~~~^~~~",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "130",
+                "col": "26",
+                "message": "'c1' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:130:26: warning: ‘c1’ may be used uninitialized in this function [-Wmaybe-uninitialized]         c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;                       ~~~^~~~/tmp/buildservice/bs_3982/main.cpp: In member function ‘int GradjaninBiH::DajSifruRegije() const’:",
+                "code": "c13 = 11 - (7*(c1+c7) + 6*(c2+c8) + 5*(c3+c9) + 4*(c4+c10) + 3*(c5+c11) + 2*(c6+c12)) % 11;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "171",
+                "col": "14",
+                "message": "'c8' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:171:14: warning: ‘c8’ may be used uninitialized in this function [-Wmaybe-uninitialized]     return c8*10 + c9;            ~~^~~",
+                "code": "return c8*10 + c9;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "171",
+                "col": "20",
+                "message": "'c9' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:171:20: warning: ‘c9’ may be used uninitialized in this function [-Wmaybe-uninitialized]     return c8*10 + c9;                    ^~",
+                "code": "return c8*10 + c9;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "227",
+                "col": "75",
+                "message": "'pol' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_3982/main.cpp:227:75: warning: ‘pol’ may be used uninitialized in this function [-Wmaybe-uninitialized]             GradjaninBiH g(ime_i_prezime, dan, mjesec, godina, regija, pol);                                                                           ^",
+                "code": "GradjaninBiH g(ime_i_prezime, dan, mjesec, godina, regija, pol);"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "3769": {
+            "status": 1,
+            "run_result": {
+                "output": "Koliko gradjana zelite unijeti po JMBG? \nUnesite ime i prezime (u istom redu): \nUnesite JMBG: \nUnijeli ste gradjanina Murga Drot rodjenog 30.5.2017 u regiji 18, musko.\nUnesite ime i prezime (u istom redu): \nUnesite JMBG: \nUnijeli ste gradjanina Gile Sampion rodjenog 29.5.2017 u regiji 17, musko.\nUnesite ime i prezime (u istom redu): \nUnesite JMBG: \nJMBG nije validan\nUnesite ime i prezime (u istom redu): \nUnesite JMBG: \nUnijeli ste gradjanina Selena VratiSe rodjenog 16.12.1994 u regiji 17, zensko.\nKoliko gradjana zelite unijeti po datumu rodjenja, regiji i polu? \nUnesite ime i prezime (u istom redu): \nUnesite datum rodjenja (format dd/mm/gggg): \nUnesite sifru regije: \nUnesite M za musko, Z za zensko: \nUnijeli ste gradjanina Ibro Dirka JMBG: 1612994170006.\nUnesite ime i prezime (u istom redu): \nUnesite datum rodjenja (format dd/mm/gggg): \nUnesite sifru regije: \nUnesite M za musko, Z za zensko: \nUnijeli ste gradjanina Lijepa Alma JMBG: 1412994185004.\nUnesite ime i prezime (u istom redu): \nUnesite datum rodjenja (format dd/mm/gggg): \nUnesite sifru regije: \nUnesite M za musko, Z za zensko: \nNeispravni podaci\nUnesite ime i prezime (u istom redu): \nUnesite datum rodjenja (format dd/mm/gggg): \nUnesite sifru regije: \nUnesite M za musko, Z za zensko: \nUnijeli ste gradjanina Abid ReciNamde JMBG: 1212992170000.\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3770": {
+            "status": 1,
+            "run_result": {
+                "output": "12/12/1992\n17\n0\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3771": {
+            "status": 1,
+            "run_result": {
+                "output": "1212992170000\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3772": {
+            "status": 1,
+            "run_result": {
+                "output": "Gile Hasisar\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1559487285
+}

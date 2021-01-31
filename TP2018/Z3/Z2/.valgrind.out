@@ -1,0 +1,30 @@
+==7891== Memcheck, a memory error detector
+==7891== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7891== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7891== Command: /rhome/b/bsuljic1/workspace/TP/Z3/Z2/.runme
+==7891== Parent PID: 7862
+==7891== 
+==7891== 
+==7891== Process terminating with default action of signal 1 (SIGHUP)
+==7891==    at 0x56EF081: read (read.c:27)
+==7891==    by 0x566C147: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:531)
+==7891==    by 0x566D3F1: _IO_default_uflow (genops.c:380)
+==7891==    by 0x512B95C: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==7891==    by 0x50E9F48: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==7891==    by 0x109EE7: main (main.cpp:61)
+==7891== 
+==7891== HEAP SUMMARY:
+==7891==     in use at exit: 232 bytes in 4 blocks
+==7891==   total heap usage: 17 allocs, 13 frees, 74,544 bytes allocated
+==7891== 
+==7891== LEAK SUMMARY:
+==7891==    definitely lost: 0 bytes in 0 blocks
+==7891==    indirectly lost: 0 bytes in 0 blocks
+==7891==      possibly lost: 0 bytes in 0 blocks
+==7891==    still reachable: 232 bytes in 4 blocks
+==7891==         suppressed: 0 bytes in 0 blocks
+==7891== Reachable blocks (those to which a pointer was found) are not shown.
+==7891== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==7891== 
+==7891== For counts of detected and suppressed errors, rerun with: -v
+==7891== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

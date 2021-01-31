@@ -1,0 +1,8 @@
+/rhome/b/bsuljic1/workspace/TP/Z4/Z2/main.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, long long int)’:
+/rhome/b/bsuljic1/workspace/TP/Z4/Z2/main.cpp:66:24: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if(godina % 4 == 0 && godina % 100 != 0 || godina % 400 == 0)
+        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/rhome/b/bsuljic1/workspace/TP/Z4/Z2/main.cpp: In constructor ‘GradjaninBiH::GradjaninBiH(std::__cxx11::string, int, int, int, int, GradjaninBiH::Pol)’:
+/rhome/b/bsuljic1/workspace/TP/Z4/Z2/main.cpp:83:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if(godina_rodjenja % 4 == 0 && godina_rodjenja % 100 != 0 || godina_rodjenja % 400 == 0)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~

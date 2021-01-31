@@ -1,0 +1,64 @@
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp: In member function ‘void Trougao::Skaliraj(const Tacka&, double)’:
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:118:22: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(faktor == 0) throw std::domain_error("Nekorektan faktor skaliranja");
+                      ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp: In member function ‘void Trougao::Skaliraj(double)’:
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:139:22: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(faktor == 0) throw std::domain_error("Nekorektan faktor skaliranja");
+                      ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp: In function ‘bool DaLiSuPodudarni(const Trougao&, const Trougao&)’:
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:167:44: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajStranicu(1) == t2.DajStranicu(1) && t.DajStranicu(2) == t2.DajStranicu(2) && t.DajStranicu(3) == t2.DajStranicu(3)) return true;
+                                            ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:167:85: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajStranicu(1) == t2.DajStranicu(1) && t.DajStranicu(2) == t2.DajStranicu(2) && t.DajStranicu(3) == t2.DajStranicu(3)) return true;
+                                                                                     ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:167:126: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajStranicu(1) == t2.DajStranicu(1) && t.DajStranicu(2) == t2.DajStranicu(2) && t.DajStranicu(3) == t2.DajStranicu(3)) return true;
+                                                                                                                              ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:168:49: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     else if(t.DajStranicu(1) == t2.DajStranicu(2) && t.DajStranicu(2) == t2.DajStranicu(3) && t.DajStranicu(3) == t2.DajStranicu(1)) return true;
+                                                 ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:168:90: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     else if(t.DajStranicu(1) == t2.DajStranicu(2) && t.DajStranicu(2) == t2.DajStranicu(3) && t.DajStranicu(3) == t2.DajStranicu(1)) return true;
+                                                                                          ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:168:131: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     else if(t.DajStranicu(1) == t2.DajStranicu(2) && t.DajStranicu(2) == t2.DajStranicu(3) && t.DajStranicu(3) == t2.DajStranicu(1)) return true;
+                                                                                                                                   ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:169:44: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajStranicu(1) == t2.DajStranicu(3) && t.DajStranicu(2) == t2.DajStranicu(1) && t.DajStranicu(3) == t2.DajStranicu(2)) return true;
+                                            ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:169:85: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajStranicu(1) == t2.DajStranicu(3) && t.DajStranicu(2) == t2.DajStranicu(1) && t.DajStranicu(3) == t2.DajStranicu(2)) return true;
+                                                                                     ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:169:126: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajStranicu(1) == t2.DajStranicu(3) && t.DajStranicu(2) == t2.DajStranicu(1) && t.DajStranicu(3) == t2.DajStranicu(2)) return true;
+                                                                                                                              ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp: In function ‘bool DaLiSuSlicni(const Trougao&, const Trougao&)’:
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:176:36: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajUgao(1) == t2.DajUgao(1) && t.DajUgao(2) == t2.DajUgao(2) && t.DajUgao(3) == t2.DajUgao(3)) return true;
+                                    ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:176:69: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajUgao(1) == t2.DajUgao(1) && t.DajUgao(2) == t2.DajUgao(2) && t.DajUgao(3) == t2.DajUgao(3)) return true;
+                                                                     ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:176:102: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajUgao(1) == t2.DajUgao(1) && t.DajUgao(2) == t2.DajUgao(2) && t.DajUgao(3) == t2.DajUgao(3)) return true;
+                                                                                                      ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:177:41: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     else if(t.DajUgao(1) == t2.DajUgao(2) && t.DajUgao(2) == t2.DajUgao(3) && t.DajUgao(3) == t2.DajUgao(1)) return true;
+                                         ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:177:74: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     else if(t.DajUgao(1) == t2.DajUgao(2) && t.DajUgao(2) == t2.DajUgao(3) && t.DajUgao(3) == t2.DajUgao(1)) return true;
+                                                                          ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:177:107: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     else if(t.DajUgao(1) == t2.DajUgao(2) && t.DajUgao(2) == t2.DajUgao(3) && t.DajUgao(3) == t2.DajUgao(1)) return true;
+                                                                                                           ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:178:36: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajUgao(1) == t2.DajUgao(3) && t.DajUgao(2) == t2.DajUgao(1) && t.DajUgao(3) == t2.DajUgao(2)) return true;
+                                    ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:178:69: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajUgao(1) == t2.DajUgao(3) && t.DajUgao(2) == t2.DajUgao(1) && t.DajUgao(3) == t2.DajUgao(2)) return true;
+                                                                     ^
+/rhome/b/bsuljic1/workspace/TP/Z4/Z1/main.cpp:178:102: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(t.DajUgao(1) == t2.DajUgao(3) && t.DajUgao(2) == t2.DajUgao(1) && t.DajUgao(3) == t2.DajUgao(2)) return true;
+                                                                                                      ^

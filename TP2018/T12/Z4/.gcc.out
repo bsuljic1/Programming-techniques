@@ -1,0 +1,35 @@
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp: In function ‘bool operator==(const Kompleksni&, const Kompleksni&)’:
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:44:20: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return a.re == b.re && a.im == b.im;
+                    ^~
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:44:36: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return a.re == b.re && a.im == b.im;
+                                    ^~
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Kompleksni&)’:
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:106:16: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  if(real(a) != 0 && imag(a) == 0) return tok << real(a);
+                ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:106:32: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  if(real(a) != 0 && imag(a) == 0) return tok << real(a);
+                                ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:107:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  else if(real(a) != 0 && imag(a) < 0) return tok << real(a) << "-" << (-1)*imag(a) << "i";
+                     ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:108:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  else if(real(a) == 0 && imag(a) != 0) return tok << imag(a) << "i";
+                     ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:108:37: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  else if(real(a) == 0 && imag(a) != 0) return tok << imag(a) << "i";
+                                     ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:109:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  else if(imag(a) == 1){
+                     ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:110:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   if(real(a) != 0) return tok << real(a) << "+i";
+                 ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:113:22: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  else if(imag(a) == -1){
+                      ^
+/rhome/b/bsuljic1/workspace/TP/T12/Z4/main.cpp:114:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   if(real(a) != 0) return tok << real(a) << "-i";
+                 ^

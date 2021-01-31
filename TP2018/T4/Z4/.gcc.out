@@ -1,0 +1,4 @@
+/rhome/b/bsuljic1/workspace/TP/T4/Z4/main.cpp: In function ‘int main()’:
+/rhome/b/bsuljic1/workspace/TP/T4/Z4/main.cpp:28:43: error: expected ‘;’ before ‘...’ token
+     std::cout << " na " << n << " iznosi "...;
+                                           ^~~
